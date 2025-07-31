@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando</title>
+    <link rel="shortcut icon" href="../js.png" type="image/x-icon">
+    <style>
+        body{
+            background-color: #eed547ab;
+            color: #f55d52dc;
+            font: 30pt Arial;
+    
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Digite seu nome!')
+        var salario = Number(window.prompt('digite seu salário'))
+        var VR = Number(window.prompt('Digite seu vale refeição'))
+        var R = salario + VR
+        document.write(`Senhor ${nome}. O seu salário de ${salario.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} junto com seu VR de ${VR.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})} , Juntos dão ${R.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})}`)
+    </script>
+</body>
+</html>
