@@ -1,2 +1,2 @@
 # JavaScript
-Aulas e exercicios 
+Aulas e exercícios 
